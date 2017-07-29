@@ -1,0 +1,4 @@
+package: gtfoaas
+import:
+- package: github.com/go-redis/redis
+  version: ^6.5.4

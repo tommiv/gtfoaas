@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.intro {
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+.intro::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 0.4;
+}
+
+.intro-0 {
+    background-image: url("img/0.jpg");
+}
+.intro-1 {
+    background-image: url("img/1.jpg");
+}
+.intro-2 {
+    background-image: url("img/2.jpg");
+}
+.intro-3 {
+    background-image: url("img/3.jpg");
+}
+.intro-4 {
+    background-image: url("img/4.jpg");
+}
+
+.title {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    margin: 0 20px;
+    z-index: 2;
+}
+
+.caption {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 72px;
+    margin: 0;
+}
+
+.counter {
+    margin-top: 20px;
+}
+
+.counter button {
+    font-size: 14px;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 8px 22px;
+}
+
+.counter button:focus {
+    outline: 0;
+}
+
+.pros {
+    margin: 20%;
+}
